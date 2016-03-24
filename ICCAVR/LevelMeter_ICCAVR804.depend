@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1446915254 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\button.c
+	<iom16v.h>
+	<macros.h>
+	"button.h"
+	"led.h"
+
+1446298854 c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\button.h
+	"variables.h"
+
+1453648456 c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\variables.h
+
+1443788276 c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\led.h
+	"variables.h"
+
+1453649148 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\control.c
+	<iom16v.h>
+	<macros.h>
+	"peripheral.h"
+	"variables.h"
+	"segDisp.h"
+	"led.h"
+	"button.h"
+	"memory.h"
+	"control.h"
+	"seg_HC164.h"
+
+1446875990 c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\peripheral.h
+	"variables.h"
+
+1446998308 c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\segdisp.h
+	"variables.h"
+
+1453642556 c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\memory.h
+
+1447551342 c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\control.h
+
+1447345552 c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\seg_hc164.h
+	"variables.h"
+
+1446915644 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\interrupt.c
+	<iom16v.h>
+	<macros.h>
+	"peripheral.h"
+	"variables.h"
+
+1444198094 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\led.c
+	"iom16v.h"
+	<macros.h>
+	"led.h"
+	"variables.h"
+	"segDisp.h"
+
+1447580288 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\main.c
+	<iom16v.h>
+	<macros.h>
+	"peripheral.h"
+	"variables.h"
+	"segDisp.h"
+	"led.h"
+	"button.h"
+	"memory.h"
+	"control.h"
+
+1446915936 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\memory.c
+	<iom16v.h>
+	<macros.h>
+	"peripheral.h"
+	"variables.h"
+	"memory.h"
+
+1447579836 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\peripheral.c
+	<iom16v.h>
+	<macros.h>
+	"peripheral.h"
+	"variables.h"
+
+1447577772 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\segdisp.c
+	<iom16v.h>
+	<macros.h>
+	"segDisp.h"
+	"variables.h"
+	"peripheral.h"
+
+1447348330 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\seg_hc164.c
+	<iom16v.h>
+	<macros.h>
+	"segDisp.h"
+	"variables.h"
+	"peripheral.h"
+	"seg_HC164.h"
+
+1453648550 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\variables.c
+	"variables.h"
+
+1443694128 source:c:\users\junife\documents\iccavr\levelmeter_iccavr804\src\wireless.c
+
