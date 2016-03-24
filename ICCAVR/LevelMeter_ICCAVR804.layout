@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="default" />
+	<File name="src\button.c" open="0" top="0" tabpos="1">
+		<Cursor position="710" topLine="0" />
+	</File>
+	<File name="src\control.c" open="0" top="0" tabpos="0">
+		<Cursor position="982" topLine="9" />
+	</File>
+	<File name="src\main.c" open="1" top="0" tabpos="1">
+		<Cursor position="876" topLine="18" />
+	</File>
+	<File name="src\memory.c" open="0" top="0" tabpos="0">
+		<Cursor position="376" topLine="0" />
+	</File>
+	<File name="src\segDisp.c" open="0" top="0" tabpos="2">
+		<Cursor position="1230" topLine="19" />
+	</File>
+	<File name="src\seg_HC164.c" open="0" top="0" tabpos="0">
+		<Cursor position="761" topLine="0" />
+	</File>
+	<File name="src\variables.c" open="0" top="0" tabpos="0">
+		<Cursor position="1115" topLine="32" />
+	</File>
+</CodeBlocks_layout_file>

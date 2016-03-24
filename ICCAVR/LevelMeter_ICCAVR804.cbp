@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LevelMeter_ICCAVR804" />
+		<Option pch_mode="2" />
+		<Option compiler="iccavr" />
+		<Build>
+			<Target title="default">
+				<Option output="..\LevelMeter_ICCAVR804\LevelMeter_ICCAVR804" prefix_auto="0" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="iccavr" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-e" />
+			<Add option="-DATMega16" />
+			<Add option="-l" />
+			<Add option="-A" />
+			<Add option="-g" />
+			<Add option="-MLongJump" />
+			<Add option="-MHasMul" />
+			<Add option="-MEnhanced" />
+			<Add option="-D__ICC_VERSION=80403" />
+			<Add option="-D__BUILD=6" />
+		</Compiler>
+		<Linker>
+			<Add option="-g" />
+			<Add option="-e:0x4000" />
+			<Add option="-ucrtatmega.o" />
+			<Add option="-bfunc_lit:0x54.0x4000" />
+			<Add option="-dram_end:0x45f" />
+			<Add option="-bdata:0x60.0x45f" />
+			<Add option="-dhwstk_size:20" />
+			<Add option="-beeprom:0.512" />
+			<Add option="-fihx_coff" />
+			<Add option="-S2" />
+			<Add option="-nb:6" />
+			<Add library="catmega" />
+		</Linker>
+		<Unit filename="src\button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\interrupt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\led.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\peripheral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\segDisp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\seg_HC164.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\variables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\wireless.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
