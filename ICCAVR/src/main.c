@@ -8,7 +8,7 @@
 #include "memory.h"
 #include "control.h"
 
-//hujunfeng
+
 
 void main(void)
 {
@@ -25,7 +25,6 @@ void main(void)
 	{
 	  Button_Scan();
 	  timer_100ms_flag = FALSE;
-	  Con_Monitor();
 	  WDR(); //kick watchdog
 	}
 	
