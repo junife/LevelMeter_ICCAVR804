@@ -2,7 +2,7 @@ IMAGECRAFT DEBUG FORMAT
 VERSION 1.3
 CPU AVR
 FRAMEPOINTER Y
-DIR C:\Users\junife\Documents\ICCAVR\LevelMeter_ICCAVR804\src\
+DIR C:\Users\junife\Documents\GitHub\LevelMeter_ICCAVR804\ICCAVR\src\
 FILE button.c
 STRUCT 8 button_struct_t_tag
 FIELD 0 prevState c
