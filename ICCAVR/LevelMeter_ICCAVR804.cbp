@@ -22,7 +22,7 @@
 			<Add option="-MHasMul" />
 			<Add option="-MEnhanced" />
 			<Add option="-D__ICC_VERSION=80403" />
-			<Add option="-D__BUILD=6" />
+			<Add option="-D__BUILD=14" />
 		</Compiler>
 		<Linker>
 			<Add option="-g" />
@@ -35,7 +35,7 @@
 			<Add option="-beeprom:0.512" />
 			<Add option="-fihx_coff" />
 			<Add option="-S2" />
-			<Add option="-nb:6" />
+			<Add option="-nb:14" />
 			<Add library="catmega" />
 		</Linker>
 		<Unit filename="src\button.c">
