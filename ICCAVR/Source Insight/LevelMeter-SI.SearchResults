@@ -1,16 +1,4 @@
----- module_state Matches (15 in 4 files) ----
-Control.c:    module_state = MODULE_STATE_WORK_NORM;
-Control.c:	    module_state = MODULE_STATE_INIT;
-Control.c:  		module_state = MODULE_STATE_WORK_NORM;
-Control.c:        module_state = MODULE_STATE_WORK_WARN;
-Control.c:  	module_state = MODULE_STATE_QUIT;
-Control.c:	module_state = MODULE_STATE_SERVICE;
-Control.c:	module_state = MODULE_STATE_SERVICE;
-Control.c:	module_state = MODULE_STATE_SERVICE;
-Control.c:	  module_prevState = module_state;
-Control.c:    module_state = MODULE_STATE_SERVICE;
-Control.c:	module_state = MODULE_STATE_SERVICE;
-Control.c:		    module_state = MODULE_STATE_WORK_NORM;
-Main.c:    switch(module_state)
-Variables.c:MODULE_STATE_ENUM  module_state = MODULE_STATE_INIT;
-Variables.h:extern MODULE_STATE_ENUM   module_state;
+---- Con_Monitor Matches (3 in 3 files) ----
+Control.c:void Con_Monitor(void)
+Control.h:void Con_Monitor(void);
+Main.c:	Con_Monitor();

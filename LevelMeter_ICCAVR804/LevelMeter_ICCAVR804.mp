@@ -1,6 +1,6 @@
 Project:      ..\LevelMeter_ICCAVR804\LevelMeter_ICCAVR804
-Build Number: 13
-Date:         Tue Apr 12 15:23:15 2016
+Build Number: 16
+Date:         Wed Apr 13 21:30:02 2016
 Compiler:     ICCAVR
 Version:      8.04.03
 
@@ -27,7 +27,7 @@ Area                               Addr   Size   Decimal Bytes (Attributes)
 
 Area                               Addr   Size   Decimal Bytes (Attributes)
 --------------------------------   ----   ----   ------- ----- ------------
-                            text   0316   21EE =   8686. bytes (rel,con,rom,code)
+                            text   0316   21EC =   8684. bytes (rel,con,rom,code)
 
        Addr  Global Symbol
       -----  --------------------------------
@@ -47,70 +47,70 @@ Area                               Addr   Size   Decimal Bytes (Attributes)
        04CA  _getMaxVal
        04F3  _getAvgVal
        052E  _materialDetect
-       06E4  _buttonDetect
-       0C87  _Con_Monitor
-       0CA1  _timer0_ovf_isr
-       0D1F  _timer1_ovf_isr
-       0D38  _LedLight
-       0D4A  _LedBlink
-       0D93  _main
-       0DDA  _EEPROM_Write_One_Byte
-       0DF7  _EEPROM_Read_One_Byte
-       0E0E  _EEPROM_Write_Bytes
-       0E25  _EEPROM_Read_Bytes
-       0E52  _port_init
-       0E60  _watchdog_init
-       0E66  _timer0_init
-       0E6F  _timer1_init
-       0E79  _uart0_init
-       0E85  _adc_init
-       0E8D  _adc_start
-       0ECF  _peripheral_init
-       0EDD  _Delay
-       0EE6  _Per_Dly_Ms
-       0EF4  _Per_Bypass_Ms
-       0F13  _Seg_Number_Show
-       0F85  _Seg_Deci_Show
-       0FF9  _Seg_Alpha_Show
-       104B  segDisp.c:Clear_Show
-       1050  _Seg_164_Number
-       10D4  _Seg_164_Alpha
-       1116  _variables_init
-       1151  mod16u
-       1153  div16u
-       1154  xdiv16u
-       116D  div32u
-       116F  mod32u
-       1173  div32s
-       1175  mod32s
-       11A1  long_div_prolog
-       11B4  long_div_epilog
-       11C4  tst_R16_R19
-       11C9  tst_R24_R27
-       11CE  neg_R24_R27
-       11D7  mod8u
-       11D9  div8u
-       11DA  xdiv8u
-       11EF  empy16s
-       11FF  pop_xgset30FC
-       1208  pop_xgsetF0FC
-       1213  push_xgsetF0FC
-       1215  push_xgset30FC
-       1217  push_xgset00FC
-       1219  push_xgset003C
-       121E  push_xgset300C
-       1223  pop_xgset300C
-       1228  push_xgsetF000
-       122D  pop_xgsetF000
-       1232  push_xgsetF00C
-       1239  pop_xgsetF00C
-       1240  push_xgset303C
-       1247  pop_xgset303C
-       124E  push_xgsetF03C
-       1257  pop_xgsetF03C
-       1260  neg32
-       1269  asgncblk
-       1282  __text_end
+       06E3  _buttonDetect
+       0C86  _Con_Monitor
+       0CA0  _timer0_ovf_isr
+       0D1E  _timer1_ovf_isr
+       0D37  _LedLight
+       0D49  _LedBlink
+       0D92  _main
+       0DD9  _EEPROM_Write_One_Byte
+       0DF6  _EEPROM_Read_One_Byte
+       0E0D  _EEPROM_Write_Bytes
+       0E24  _EEPROM_Read_Bytes
+       0E51  _port_init
+       0E5F  _watchdog_init
+       0E65  _timer0_init
+       0E6E  _timer1_init
+       0E78  _uart0_init
+       0E84  _adc_init
+       0E8C  _adc_start
+       0ECE  _peripheral_init
+       0EDC  _Delay
+       0EE5  _Per_Dly_Ms
+       0EF3  _Per_Bypass_Ms
+       0F12  _Seg_Number_Show
+       0F84  _Seg_Deci_Show
+       0FF8  _Seg_Alpha_Show
+       104A  segDisp.c:Clear_Show
+       104F  _Seg_164_Number
+       10D3  _Seg_164_Alpha
+       1115  _variables_init
+       1150  mod16u
+       1152  div16u
+       1153  xdiv16u
+       116C  div32u
+       116E  mod32u
+       1172  div32s
+       1174  mod32s
+       11A0  long_div_prolog
+       11B3  long_div_epilog
+       11C3  tst_R16_R19
+       11C8  tst_R24_R27
+       11CD  neg_R24_R27
+       11D6  mod8u
+       11D8  div8u
+       11D9  xdiv8u
+       11EE  empy16s
+       11FE  pop_xgset30FC
+       1207  pop_xgsetF0FC
+       1212  push_xgsetF0FC
+       1214  push_xgset30FC
+       1216  push_xgset00FC
+       1218  push_xgset003C
+       121D  push_xgset300C
+       1222  pop_xgset300C
+       1227  push_xgsetF000
+       122C  pop_xgsetF000
+       1231  push_xgsetF00C
+       1238  pop_xgsetF00C
+       123F  push_xgset303C
+       1246  pop_xgset303C
+       124D  push_xgsetF03C
+       1256  pop_xgsetF03C
+       125F  neg32
+       1268  asgncblk
+       1281  __text_end
 
 Area                               Addr   Size   Decimal Bytes (Attributes)
 --------------------------------   ----   ----   ------- ----- ------------
